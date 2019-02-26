@@ -41,3 +41,8 @@ off. This is desirable due to the large amount of requests that need to be made.
 ^C during the running of the program, trap it and dump the current state to a 
 human-readable json file. this file will contain everything needed to resume the program
 at a later stage.
+
+Future ideas / looking back:
+Attempt each character simultaneously and give each a 'confidence vote' before moving on
+to guess the next character. Round-robin through all possibilities with 10 requests at a
+time. Exercise left for the reader.
